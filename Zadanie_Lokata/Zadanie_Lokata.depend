@@ -67,3 +67,63 @@
 	<Investment.h>
 	<iostream>
 
+1522320551 source:/home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/main.cpp
+	<iostream>
+	"Menu.h"
+
+1522322565 /home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/include/Menu.h
+	<Investment.h>
+	<InvestmentManagement.h>
+	<Display.h>
+	<ControlPanel.h>
+	<AutomaticTests.h>
+
+1522322063 /home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/include/Investment.h
+	<iostream>
+
+1522320551 /home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/include/InvestmentManagement.h
+	"Investment.h"
+	<math.h>
+
+1522322050 /home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/include/Display.h
+	<iostream>
+	"Investment.h"
+
+1522320551 /home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/include/ControlPanel.h
+	"Investment.h"
+	"InvestmentManagement.h"
+	"Display.h"
+
+1522322565 /home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/include/AutomaticTests.h
+	<InvestmentManagement.h>
+	<Investment.h>
+	<iostream>
+
+1522322812 source:/home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/src/AutomaticTests.cpp
+	"AutomaticTests.h"
+	"sstream"
+
+1522320551 source:/home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/src/ControlPanel.cpp
+	"ControlPanel.h"
+	<iostream>
+	<limits.h>
+
+1522321998 source:/home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/src/Display.cpp
+	"Display.h"
+	"Investment.cpp"
+
+1522320551 /home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/src/Investment.cpp
+	"Investment.h"
+
+1522320551 source:/home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/src/Investment.cpp
+	"Investment.h"
+
+1522320551 source:/home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/src/InvestmentManagement.cpp
+	"InvestmentManagement.h"
+	"Investment.h"
+	<math.h>
+
+1522320551 source:/home/mion/s/194/mkiljan/Desktop/Nowy2/Zadanie_Lokata/Zadanie_Lokata/src/Menu.cpp
+	"Menu.h"
+	<iostream>
+

@@ -7,8 +7,8 @@
 class AutomaticTests
 {
     public:
-        void ShowIfTestPassed(bool test);
-        void RunTests();
+        void ShowIfTestPassed(bool test);   // if test passed displays "OK"
+        void RunTests();    //runs all test with display
         bool Test0();
         bool Test1(InvestmentManagement * managment,Investment * investment);
         bool Test2(InvestmentManagement * managment,Investment * investment,Investment * emptyone);

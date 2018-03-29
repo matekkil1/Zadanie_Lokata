@@ -8,36 +8,36 @@ void AutomaticTests::ShowIfTestPassed(bool test)
 
 bool AutomaticTests::Test0()
 {
-    return 1;
+    return true;
 }
-bool AutomaticTests::Test1(InvestmentManagement * managment,Investment * investment)
+bool AutomaticTests::Test1(InvestmentManagement * managment,Investment * investment)    //Test no.1 - BalanceOperation for specific value (negative)
 {
-    managment->BalanceOperation(investment,-500,1,0);  //Test no.1 - BalanceOperation for specific value (negative)
+    managment->BalanceOperation(investment,-500,1,0);
     if(investment->balance_in_pln == 0 ) return true;
     else return false;
 }
 
-bool AutomaticTests::Test2(InvestmentManagement * managment,Investment * investment,Investment * emptyone)
+bool AutomaticTests::Test2(InvestmentManagement * managment,Investment * investment,Investment * emptyone)  //Test no.2 - "=" operator overloading
 {   managment->BalanceOperation(investment,500,1,0);
     investment = emptyone;
-    if(investment == emptyone) return true;   //Test no.2 - "=" operator overloading
+    if(investment == emptyone) return true;
      return false;
 }
 
-bool AutomaticTests::Test3(InvestmentManagement * managment,Investment * investment)
+bool AutomaticTests::Test3(InvestmentManagement * managment,Investment * investment)    //Test no.3 - BalanceOperation for specific value (positive)
 {
-    managment->BalanceOperation(investment,500,1,0); //Test no.3 - BalanceOperation for specific value (positive)
+    managment->BalanceOperation(investment,500,1,0);
     if(investment->balance_in_pln == 500 ) return true;
     else return false;
 }
 
-bool AutomaticTests::Test4(InvestmentManagement * managment,Investment * investment)
+bool AutomaticTests::Test4(InvestmentManagement * managment,Investment * investment)     //Test no.4 - InterestOperation for specific value (possitive)
 {
-    managment->InterestOperation(investment,2.5,1,0);   //Test no.4 - InterestOperation for specific value (possitive)
+    managment->InterestOperation(investment,2.5,1,0);
     if(investment->interest == 2.5) return true;
     else return false;
 }
-bool AutomaticTests::Test5(InvestmentManagement * managment,Investment * investment)
+bool AutomaticTests::Test5(InvestmentManagement * managment,Investment * investment)    //Test no.5 - Checks all InvestmentManagment methods
 {
     managment->BalanceOperation(investment,1000,1,0);
     managment->InterestOperation(investment,3,1,0);
@@ -47,19 +47,20 @@ bool AutomaticTests::Test5(InvestmentManagement * managment,Investment * investm
     if(investment->balance_in_pln == 1094,14) return true;
     else return false;
 }
-bool AutomaticTests::Test6(InvestmentManagement * managment,Investment * investment)
+bool AutomaticTests::Test6(InvestmentManagement * managment,Investment * investment)    //Test no.6 - Checks condition in CapitalizationTermsOperation
 {
     if(managment->CapitalizationTermsOperation(investment,100000,0,1) == false) return true;
     else return false;
 }
-bool AutomaticTests::Test7(InvestmentManagement * managment,Investment * investment)
+bool AutomaticTests::Test7(InvestmentManagement * managment,Investment * investment)    //Test no.7 - Checks ProfitEsteem method
 {
-    managment->ProfitEsteem(investment);
-    return true;
+    if(managment->ProfitEsteem(investment) == 1) return true;
+    else return false;
 
 }
-bool AutomaticTests::Test8(InvestmentManagement * managment,Investment * investment)
+bool AutomaticTests::Test8(InvestmentManagement * managment,Investment * investment)    //Test no.8 -Checks all InvestmentManagment methods
 {
+
     managment->BalanceOperation(investment,150,1,0);
     managment->InterestOperation(investment,10,1,0);
     managment->CapitalizationTermsOperation(investment,10,1,0);
@@ -86,7 +87,6 @@ void AutomaticTests::RunTests()
 
     std::cout<<"2 -";
     ShowIfTestPassed(Test2( managment, &investment[1], emptyone));
-
     std::cout<<std::endl;
 
     std::cout<<"3 -";
@@ -115,5 +115,6 @@ void AutomaticTests::RunTests()
 
 
     delete [] investment;
+
 
 }

@@ -50,7 +50,7 @@ class Investment
 
 inline std::ostream & operator<< (std::ostream &wyjscie, const Investment &s)
 {
-   return wyjscie << "Okres trwania lokaty konczy sie za: "<<s.term<<" lat."<<std::endl
+   return wyjscie << "Okres trwania lokaty konczy sie za: "<<s.term<<" [lata]."<<std::endl
     <<"Oprocentowanie lokaty w skali roku wynosi: "<<s.interest<<" %"<<std::endl
     <<"Stan lokaty w PLN to: "<<s.balance_in_pln<<std::endl
     <<"Stan lokaty w GBP to: "<<s.balance_in_gbp<<std::endl

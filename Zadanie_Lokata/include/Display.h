@@ -2,7 +2,6 @@
 #define DISPLAY_H
 #include <iostream>
 #include"Investment.h"
-using namespace std;
 
 
 class Display

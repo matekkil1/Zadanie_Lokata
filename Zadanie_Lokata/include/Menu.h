@@ -8,6 +8,7 @@
 
 class Menu
 {
+
     public:
         bool CreateMenu();
         bool InvestmentMenu();

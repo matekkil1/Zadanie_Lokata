@@ -34,15 +34,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/AutomaticTests.h" />
 		<Unit filename="include/ControlPanel.h" />
 		<Unit filename="include/Display.h" />
 		<Unit filename="include/Investment.h" />
 		<Unit filename="include/InvestmentManagement.h" />
+		<Unit filename="include/Menu.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/AutomaticTests.cpp" />
 		<Unit filename="src/ControlPanel.cpp" />
 		<Unit filename="src/Display.cpp" />
 		<Unit filename="src/Investment.cpp" />
 		<Unit filename="src/InvestmentManagement.cpp" />
+		<Unit filename="src/Menu.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
