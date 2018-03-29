@@ -1,9 +1,11 @@
 #include <iostream>
-
+#include "Menu.h"
 using namespace std;
 
+
 int main()
-{
-    cout << "Hello world!" << endl;
+{Menu * menu = new Menu;
+menu->CreateMenu();
+delete menu;
     return 0;
 }

@@ -1,0 +1,273 @@
+cscope 15 $HOME/Pulpit/Zadanie_Lokata/Zadanie_Lokata               0000001659
+	@/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/Investment .h
+
+1 #iâdeà
+INVESTMENT
+ 
+_H
+
+
+2 
+	#INVESTMENT
+ 
+_H
+
+
+	)
+
+5 þas 
+	cInve¡m’t
+
+
+7 
+	mpublic
+:
+
+8 
+b®ªû
+;
+
+9 
+	m‹rm
+;
+
+10 
+	mš‹»¡
+;
+
+11 
+	mb®ªû_š_$
+;
+
+12 
+	me¡im©ed_´of™
+;
+
+14 
+	m´Ùeùed
+:
+
+16 
+´iv©e
+:
+
+	@/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/InvestmentManagement.h
+
+1 #iâdeà
+INVESTMENTMANAGEMENT_H
+
+
+2 
+	#INVESTMENTMANAGEMENT_H
+
+
+	)
+
+5 þas 
+	cInve¡m’tMªagem’t
+
+
+7 
+	mpublic
+:
+
+9 
+boÞ
+ 
+B®ªûO³¿tiÚ
+(
+Inve¡m’t
+ &
+šve¡m’t
+, 
+amout
+, boÞ 
+to_add
+, boÞ 
+to_sub¡¿ù
+);
+
+10 
+boÞ
+ 
+T”mO³¿tiÚ
+();
+
+11 
+boÞ
+ 
+IÁ”e¡O³¿tiÚ
+();
+
+12 
+boÞ
+ 
+Prof™E¡“m
+();
+
+13 
+boÞ
+ 
+Cu¼’cyCÚv”siÚ
+();
+
+15 
+	m´Ùeùed
+:
+
+17 
+´iv©e
+:
+
+	@/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/main.cpp
+
+1 
+	~<io¡»am
+>
+
+2 
+	~"Inve¡m’ˆ.h
+"
+
+3 
+	~"Inve¡m’tMªagem’t.h
+"
+
+5 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+8 
+	$maš
+()
+
+10 
+Inve¡m’t
+ * 
+lok©a
+ = 
+Ãw
+ Investment;
+
+12 
+Inve¡m’tMªagem’t
+ * 
+Ý”acje
+ = 
+Ãw
+ InvestmentManagement;
+
+13 
+lok©a
+->
+b®ªû
+=100;
+
+14 
+Ý”acje
+->
+	`B®ªûO³¿tiÚ
+(
+lok©a
+, 50, 1, 0);
+
+15 
+cout
+ << 
+lok©a
+->
+b®ªû
+;
+
+17 
+	}
+}
+
+	@/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/Investment .cpp
+
+1 
+	~"Inve¡m’ˆ.h
+"
+
+	@/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/InvestmentManagement.cpp
+
+1 
+	~"Inve¡m’tMªagem’t.h
+"
+
+2 
+	~"Inve¡m’ˆ.ýp
+"
+
+3 
+boÞ
+ 
+	gInve¡m’tMªagem’t
+::
+	$B®ªûO³¿tiÚ
+(
+Inve¡m’t
+ *
+šve¡m’t
+, 
+amout
+, 
+boÞ
+ 
+to_add
+, boÞ 
+to_sub¡¿ù
+)
+
+5 if(
+to_add
+==1è
+this
+->
+b®ªû
+ +ð
+amout
+;
+
+6 if(
+to_sub¡¿ù
+==1è
+this
+->
+b®ªû
+ -ð
+amout
+;
+
+8 
+	}
+}
+
+10 
+boÞ
+ 
+	gInve¡m’tMªagem’t
+::
+	$T”mO³¿tiÚ
+()
+
+13 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+5
+356
+/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/Investment .h
+/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/InvestmentManagement.h
+/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/main.cpp
+/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/Investment .cpp
+/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/InvestmentManagement.cpp

@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1522274963 source:/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/main.cpp
+	<iostream>
+	"Menu.h"
+
+1521908174 source:/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/Investment .cpp
+	"Investment .h"
+
+1521898004 /home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/Investment .h
+
+1522276225 source:/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/InvestmentManagement.cpp
+	"InvestmentManagement.h"
+	"Investment.h"
+	<math.h>
+
+1522275915 /home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/InvestmentManagement.h
+	"Investment.h"
+	<math.h>
+
+1521908174 /home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/Investment .cpp
+	"Investment .h"
+
+1522283822 /home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/Investment.h
+	<iostream>
+
+1522257665 source:/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/Investment.cpp
+	"Investment.h"
+
+1522257665 /home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/Investment.cpp
+	"Investment.h"
+
+1522275789 source:/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/Display.cpp
+	"Display.h"
+	"Investment.cpp"
+
+1522267602 /home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/Display.h
+	<iostream>
+	"Investment.h"
+
+1522285001 source:/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/ControlPanel.cpp
+	"ControlPanel.h"
+	<iostream>
+	<limits.h>
+
+1522285431 /home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/ControlPanel.h
+	"Investment.h"
+	"InvestmentManagement.h"
+	"Display.h"
+
+1522278357 source:/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/Menu.cpp
+	"Menu.h"
+	<iostream>
+
+1522275865 /home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/Menu.h
+	<Investment.h>
+	<InvestmentManagement.h>
+	<Display.h>
+	<ControlPanel.h>
+	<AutomaticTests.h>
+
+1522283838 source:/home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/src/AutomaticTests.cpp
+	"AutomaticTests.h"
+	"sstream"
+
+1522283822 /home/matek/Pulpit/Zadanie_Lokata/Zadanie_Lokata/include/AutomaticTests.h
+	<InvestmentManagement.h>
+	<Investment.h>
+	<iostream>
+
